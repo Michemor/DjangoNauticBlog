@@ -43,3 +43,13 @@ python manage.py makemigrations # makes migrations
 python manage.py migrate # migrates the changes
 
 ```
+
+### ORM
+
+> Used to interact with database. Bridges the gap between
+the database and code.
+
+### Django Admin
+
+> A site admins to control content of databases i.e create articles, control users etc.
+

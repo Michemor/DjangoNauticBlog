@@ -17,4 +17,10 @@ class Article(models.Model):
     slug = models.SlugField()
     body = models.TextField()
     date = models.DateTimeField(auto_now_add=True) # automatically adds the current date
-    
+
+    def __str__(self):
+        """
+        Prints a user friendly format of each objec
+        """
+
+        return (f"{self.title}")
